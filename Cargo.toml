@@ -1,0 +1,25 @@
+[package]
+name = "server_manager"
+version = "0.1.2"
+authors = ["Raul <rmcelaya@protonmail.com"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+
+[dependencies]
+flate2 = "1.0.14"
+tar = "0.4.26"
+sha2 = "0.8.1"
+hex = "0.4.2"
+chrono = "0.4"
+libc = "0.2.0"
+rust-ini = "0.15.2"
+lazy_static = "1.4.0"
+futures = "0.3.5"
+tokio = {version = "0.2.22", features = ["macros","sync"]}
+tbot = "0.6.5"
+serenity = "0.8.7"
+
+[build-dependencies]
+cc = "1.0.54"
