@@ -1,6 +1,6 @@
 # Introduction
 
-This is a software I made back in 2020 to remotely control a minecraft server I had via Telegram. **The purpose was to learn rust in the process**, which led me to reinvent the wheel and do some strange things. **It is neither optimized, secure nor prepared to be run in production**(after a while, I stopped using it and switched to K8s using rcon for remote administration).
+This is a software I made back in 2020 to remotely control a minecraft server I had via Telegram. **The purpose was to learn rust in the process**, which led me to reinvent the wheel and do some strange things. **It is neither optimized, secure nor prepared to be run in production** (after a while, I switched to K8s using rcon for remote administration).
 
 Features:
 
@@ -24,12 +24,12 @@ The output will be a single executable file which we will call r_server_manager.
 
 5. Prepare a config.ini file. There is an example of configuration file in this repository with comments.
 6. Prepare a directory structure similar to this one
-
-    ├── r_server_manager            # Remote server manager executable file
-    ├── config.ini               	# Configuration file
-    ├── backups                     # Directory for storing backups
-    ├── server                      # Directory with the minecraft server files
-    │    ├── ...  
+    
+        ├── r_server_manager            # Remote server manager executable file
+        ├── config.ini               	# Configuration file
+        ├── backups                     # Directory for storing backups
+        ├── server                      # Directory with the minecraft server files
+        │    ├── ...  
     
 7. Move to the main directory and execute the manager with the command
 ```sh
